@@ -6,6 +6,7 @@ Docker container and share them via `-v` volume mount with the Docker host.
 ## Run
 
 ```bash
+docker image build -t pyscript:latest .
 ./script.sh
 ```
 
